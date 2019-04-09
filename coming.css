@@ -12,6 +12,8 @@ section {
 
 video {
     object-fit: cover;
+    width: 100%;
+    height: -webkit-fill-available;
 }
 
 h1 {
@@ -159,4 +161,30 @@ h1 span:nth-child(10) {
 h1 span:nth-child(11) {
     animation-delay: 1.5s;
 }*/
+.chapter-logo {
+    position: fixed;
+    z-index: 1000;
+    top: 1px;
+    margin: 1em 1em;
+}
 
+.chapter-logo img {
+    position: absolute;
+    /*height: 70px;*/
+    max-width: 80px; 
+    height: auto; 
+    width: auto\5;
+    top: 25px;
+    left:20px;
+    padding:10px;
+    vertical-align: middle;
+    animation: none;
+}
+#logotext{
+  position: absolute;
+  top: 1px;
+  left: 55px;
+  font-size: 1vw;
+  font-family: "Lato";
+  color: white;
+}

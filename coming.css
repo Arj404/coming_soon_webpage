@@ -49,7 +49,7 @@ h1 span,
 h2 span {
     opacity: 0;
     display: inline-block;
-    animation: animate 1s linear forwards;
+    animation: animate  .5s linear forwards;
 }
 
 img {
@@ -60,19 +60,19 @@ img {
     transform: translate(-50%, -50%);
     opacity: 0.6;
     z-index: 1;
-    animation: disp 4s linear forwards;
+    animation: disp 3s linear forwards;
 }
 
 @keyframes animate {
     0% {
         opacity: 0;
-        transform: rotateY(90deg);
+        /*transform: rotateY(90deg);*/
         filter: blur(25px);
     }
 
     100% {
         opacity: 1;
-        transform: rotateY(0deg);
+        /*transform: rotateY(0deg);*/
         filter: blur(1.2px);
     }
 }

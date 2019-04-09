@@ -70,6 +70,12 @@ img {
         filter: blur(25px);
     }
 
+    50% {
+        opacity: .5;
+        /*transform: rotateY(90deg);*/
+        filter: blur(15px);
+    }
+
     100% {
         opacity: 1;
         /*transform: rotateY(0deg);*/
